@@ -1,0 +1,13 @@
+{
+  "name": "hacker-typer-infinite-system",
+  "version": "0.3.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "test": "node --test tests/*.test.mjs",
+    "build": "node tools/build.mjs",
+    "start": "runtime\\electron.exe desktop",
+    "dev": "runtime\\electron.exe desktop --dev",
+    "package:windows": "node tools/build.mjs && node tools/package-desktop.mjs"
+  }
+}

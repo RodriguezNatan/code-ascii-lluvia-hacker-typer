@@ -1,0 +1,17 @@
+node_modules/
+.venv/
+.python/
+__pycache__/
+*.pyc
+.env
+.env.*
+!.env.example
+runtime/
+runtime-download/
+dist/
+development/
+datos/
+test-results/
+*.log
+.DS_Store
+Thumbs.db
